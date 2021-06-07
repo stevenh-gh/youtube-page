@@ -1,3 +1,32 @@
 * {
+    margin: 0;
+    box-sizing: border-box;
     outline: 1px solid red !important;
+}
+
+header {
+    position: fixed;
+    background-color: aqua;
+    height: 56px;
+    width: 100%;
+}
+
+main {
+    background-color: burlywood;
+}
+
+aside {
+    background-color: yellow;
+    width: 100%;
+}
+
+iframe {
+    height: 480px;
+    width: 853px;
+}
+
+#main-aside {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: row;
 }
