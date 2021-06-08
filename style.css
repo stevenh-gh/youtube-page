@@ -13,11 +13,16 @@ header {
 
 main {
     background-color: burlywood;
+    margin-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
 }
 
 aside {
     background-color: yellow;
     width: 100%;
+    padding-top: 24px;
+    padding-right: 24px;
 }
 
 iframe {
