@@ -1,7 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    outline: 1px solid red !important;
+    /* outline: 1px solid red !important; */
 }
 
 header {
@@ -20,7 +20,7 @@ main {
 
 aside {
     background-color: yellow;
-    width: 100%;
+    /* width: 100%; */
     padding-top: 24px;
     padding-right: 24px;
 }
@@ -34,4 +34,5 @@ iframe {
     padding-top: 56px;
     display: flex;
     flex-direction: row;
+    background-color: teal;
 }
