@@ -36,3 +36,10 @@ iframe {
     flex-direction: row;
     background-color: teal;
 }
+
+.recommended {
+    background-color: tomato;
+    margin-bottom: 8px;
+    width: 402px;
+    height: 94px;
+}
