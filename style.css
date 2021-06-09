@@ -43,3 +43,12 @@ iframe {
     width: 402px;
     height: 94px;
 }
+
+.title {
+    background-color: violet;
+    width: 853px;
+    height: 81px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+}
