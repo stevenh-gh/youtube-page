@@ -52,3 +52,12 @@ iframe {
     padding-bottom: 8px;
     border-bottom: 1px solid black;
 }
+
+.description {
+    background-color: chartreuse;
+    width: 853px;
+    height: 291px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid black;
+    margin-bottom: 24px;
+}
