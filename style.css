@@ -45,7 +45,7 @@ iframe {
     height: 94px;
 }
 
-.title {
+.title-area {
     background-color: violet;
     width: 853px;
     height: 81px;
@@ -54,7 +54,7 @@ iframe {
     border-bottom: 1px solid black;
 }
 
-.description {
+.description-area {
     background-color: chartreuse;
     width: 853px;
     height: 291px;
@@ -63,7 +63,7 @@ iframe {
     margin-bottom: 24px;
 }
 
-.comments {
+.comments-area {
     background-color: coral;
     width: 853px;
 }
