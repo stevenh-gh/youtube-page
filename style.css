@@ -67,3 +67,12 @@ iframe {
     background-color: coral;
     width: 853px;
 }
+
+.title {
+    background-color: darkolivegreen;
+}
+
+.title-info {
+    background-color: crimson;
+    height: 40px;
+}
