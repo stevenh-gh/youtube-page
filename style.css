@@ -70,9 +70,15 @@ iframe {
 
 .title {
     background-color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
 }
 
 .title-info {
     background-color: crimson;
     height: 40px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaa;
 }
