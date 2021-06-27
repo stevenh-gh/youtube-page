@@ -59,7 +59,8 @@ iframe {
 .description-area {
     background-color: chartreuse;
     width: 853px;
-    height: 166px;
+    height: fit-content;
+    padding: 16px 0 0;
     padding-bottom: 16px;
     border-bottom: 1px solid black;
     margin-bottom: 24px;
@@ -77,6 +78,10 @@ iframe {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 18px;
+}
+
+.ch-info {
+    margin-bottom: 12px;
 }
 
 .title-info {
@@ -103,4 +108,27 @@ iframe {
     background-color: red;
     color: white;
     font-weight: bold;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5%;
+}
+
+.sub-count {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.show-more {
+    font-size: 13px;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.channel-name {
+    color: #fff;
+}
+
+.description {
+    color: #fff;
 }
