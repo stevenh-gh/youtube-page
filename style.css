@@ -172,3 +172,62 @@ hr {
 .add-comment {
     color: #aaa;
 }
+
+.comment-icon {
+    border-radius: 100%;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+}
+
+.commenter-posted {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.commenter {
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.posted {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.comment-block {
+    color: #fff;
+}
+
+.comment-like {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.comment-like img {
+    height: 16px;
+}
+
+.comment-dislike {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.comment-dislike img {
+    height: 16px;
+}
+
+.reply {
+    font-size: 13px;
+    color: #aaa;
+    background: none;
+    border: none;
+}
