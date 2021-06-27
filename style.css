@@ -2,6 +2,8 @@
     margin: 0;
     box-sizing: border-box;
     /* outline: 1px solid red !important; */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -57,10 +59,12 @@ iframe {
 .description-area {
     background-color: chartreuse;
     width: 853px;
-    height: 291px;
+    height: 166px;
     padding-bottom: 16px;
     border-bottom: 1px solid black;
     margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
 }
 
 .comments-area {
@@ -78,8 +82,6 @@ iframe {
 .title-info {
     background-color: crimson;
     height: 40px;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #aaa;
     display: flex;
     flex-direction: row;
@@ -91,4 +93,14 @@ iframe {
     display: flex;
     flex-direction: row;
     background-color: yellow;
+}
+
+#channel-icon {
+    border-radius: 100%;
+}
+
+.sub-btn {
+    background-color: red;
+    color: white;
+    font-weight: bold;
 }
