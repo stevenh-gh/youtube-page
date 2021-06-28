@@ -45,6 +45,25 @@ iframe {
     margin-bottom: 8px;
     width: 402px;
     height: 94px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vid-title {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.vid-author {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 4px;
+}
+
+.vid-views {
+    font-size: 12px;
+    color: #aaa
 }
 
 .title-area {
