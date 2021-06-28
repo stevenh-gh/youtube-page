@@ -250,3 +250,15 @@ hr {
     background: none;
     border: none;
 }
+
+.middle input {
+    width: 565px;
+    height: 26px;
+    margin-bottom: 4px;
+    padding: 1px 2px;
+    background: none;
+    border: 1px #aaa solid;
+    border-radius: 0;
+    outline: none;
+    font-size: 16px;
+}
