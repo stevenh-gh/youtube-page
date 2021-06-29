@@ -4,24 +4,94 @@
     /* outline: 1px solid red !important; */
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #181818;
 }
 
 header {
     position: fixed;
-    background-color: aqua;
+    background-color: #202020;
     height: 56px;
     width: 100%;
 }
 
+.left {
+    background-color: inherit;
+    margin-left: 5px;
+}
+
+.right {
+    background-color: inherit;
+    margin-right: 10px;
+}
+
+.topbar {
+    background-color: inherit;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    background: none;
+    border: none;
+}
+
+.enter {
+    width: 65px;
+    height: 32px;
+    /* background: none; */
+    background-color: #323232;
+    border: 1px #aaa solid;
+}
+
+.mic {
+    background: none;
+    border: none;
+}
+
+.grid {
+    background: none;
+    border: none;
+}
+
+.grid img {
+    background-color: #fff;
+}
+
+.vertical {
+    background: none;
+    border: none;
+}
+
+.vertical img {
+    background-color: #fff;
+}
+
+.sign-in {
+    height: 40px;
+    width: 108px;
+    border: 1px #3ea6ff solid;
+    background: none;
+    color: #3ea6ff;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+.sign-in img {
+    background-color: #3ea6ff;
+    border-radius: 100%;
+}
+
 main {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     margin-left: 24px;
     padding-top: 24px;
     padding-right: 24px;
 }
 
 aside {
-    background-color: yellow;
+    /* background-color: yellow; */
     /* width: 100%; */
     padding-top: 24px;
     padding-right: 24px;
@@ -36,12 +106,12 @@ iframe {
     padding-top: 56px;
     display: flex;
     flex-direction: row;
-    background-color: teal;
+    /* background-color: teal; */
     padding-left: 97px;
 }
 
 .recommended {
-    background-color: tomato;
+    /* background-color: tomato; */
     margin-bottom: 8px;
     width: 402px;
     height: 94px;
@@ -67,7 +137,7 @@ iframe {
 }
 
 .title-area {
-    background-color: violet;
+    /* background-color: violet; */
     width: 853px;
     height: 81px;
     padding-top: 20px;
@@ -76,7 +146,7 @@ iframe {
 }
 
 .description-area {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     width: 853px;
     height: fit-content;
     padding: 16px 0 0;
@@ -88,12 +158,12 @@ iframe {
 }
 
 .comments-area {
-    background-color: coral;
+    /* background-color: coral; */
     width: 853px;
 }
 
 .title {
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 18px;
@@ -104,7 +174,7 @@ iframe {
 }
 
 .title-info {
-    background-color: crimson;
+    /* background-color: crimson; */
     height: 40px;
     color: #aaa;
     display: flex;
@@ -116,7 +186,7 @@ iframe {
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 #channel-icon {
@@ -124,7 +194,7 @@ iframe {
 }
 
 .sub-btn {
-    background-color: red;
+    /* background-color: red; */
     color: white;
     font-weight: bold;
     padding: 10px 16px;
@@ -253,7 +323,7 @@ hr {
 
 .middle input {
     width: 565px;
-    height: 26px;
+    height: 32px;
     margin-bottom: 4px;
     padding: 1px 2px;
     background: none;
